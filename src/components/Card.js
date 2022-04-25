@@ -7,7 +7,6 @@ export function Card() {
 
   const generateCard = deck[Math.floor(Math.random()*deck.length)];
   
-
   return <text>{generateCard}</text>
 }
 
